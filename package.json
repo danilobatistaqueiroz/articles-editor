@@ -1,5 +1,5 @@
 {
-  "name": "angular-first-tour",
+  "name": "articles-editor",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

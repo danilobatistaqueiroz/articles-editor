@@ -1,0 +1,9 @@
+<h1>Articles</h1>
+<ul class="articles">
+  <li *ngFor="let article of articles" (click)="onSelect(article)" [class.selected]="article === selectedArticle">
+    <span class="article-element">
+      <span class="badge">{{article.id}}</span> {{article.title}}
+    </span>
+    <button class="delete-button" (click)="deleteArticle(article, $event)">Delete</button>
+  </li>
+</ul>
